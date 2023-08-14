@@ -1,0 +1,50 @@
+
+   td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+}
+user agent stylesheet
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid rgb(129, 124, 124);
+    padding: 3px;
+    margin: 20px;
+}
+user agent stylesheet
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    font-variant: normal;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    font-family: 'Times New Roman', Times, serif;
+}
+.edit{
+    margin-top: 20px;
+    text-align: center;
+}
+.class{
+text-align: end;
+margin-right: 350px;
+}
+.mee{
+    margin-left: 50px;
+    display: flex;
+}
